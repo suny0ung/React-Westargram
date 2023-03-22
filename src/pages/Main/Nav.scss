@@ -1,0 +1,67 @@
+.nav{
+
+  .menuBar {
+    border-bottom: 1px solid #DBDBDB ;
+    width: 100%;
+    height: 55px;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logoBox {
+  position: relative;
+  }
+
+  .logoText {
+    font-family: 'Lobster';
+    font-size: 20px;
+    text-align: center;
+    border-left: 2px solid #262626;
+    width: 120px;
+    margin: auto 35px;
+  }
+
+  .searchBox {
+    position: relative;
+  }
+
+  .searchInput::placeholder {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .searchInput {
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+  }
+
+  .fa-magnifying-glass {
+    position: absolute;
+    top: 7px;
+    left: 65px;
+    font-size: 13px;
+    color: gray;
+  }
+
+  .fa-regular, .fa-brands {
+    font-size: 20px;
+  }
+
+  .fa-instagram {
+    position: absolute;
+    left: 0;
+    margin: 5px ;
+  }
+
+  .innerMenu {
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto 10px;
+  }
+
+}
